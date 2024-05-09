@@ -1,30 +1,5 @@
-"""
-def urlaubstage():
-    basis_urlaub = 26
-    unter18_urlaub = 30
-    über55_urlaub = 28
-
-    urlaub = 0    
-    alter = int(input(f"Bitte Alter eingaben: "))
-    gdb50 = bool(input(f"GdB 50 % oder höher: "))
-    mehrals10 = bool(input(f"Länger als 10 Jahre im Betrieb: "))
-
-    if alter < 18:
-        urlaub = unter18_urlaub
-        if gdb50 == True:
-            urlaub += 5
-        if mehrals10 == True:
-            urlaub += 2
-    else:
-        urlaub = basis_urlaub
-        if gdb50 == True:
-            urlaub += 5
-        if mehrals10 == True:
-            urlaub += 2
-    print(f"Die Urlaubstage betragen: {urlaub} Tage")    
-urlaubstage()
-"""
-## optmized witch chatgpt
+## First Baby Steps in Python :-)
+## Berechung der Urlaubstage
 
 def urlaubstage():
     basis_urlaub = 26
