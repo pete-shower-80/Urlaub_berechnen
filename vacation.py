@@ -44,6 +44,6 @@ def vacation_days():
         if over10:
             vacation += 2
 
-    print(f"Your vacation time: {urlaub} days.")    
+    print(f"Your vacation time: {vacation} days.")    
 
 vacation_days()
